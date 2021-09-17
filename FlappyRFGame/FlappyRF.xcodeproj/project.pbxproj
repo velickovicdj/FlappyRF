@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8816D9FC22CE828400A18BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8816D9FB22CE828400A18BF3 /* main.m */; };
+		8816D9FF22CE828400A18BF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8816D9FE22CE828400A18BF3 /* AppDelegate.m */; };
+		8816DA0222CE828400A18BF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8816DA0122CE828400A18BF3 /* ViewController.m */; };
+		8816DA0522CE828400A18BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8816DA0322CE828400A18BF3 /* Main.storyboard */; };
+		8816DA0A22CE828400A18BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8816DA0822CE828400A18BF3 /* LaunchScreen.storyboard */; };
+		8816DA1522CE828400A18BF3 /* FlappyRFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8816DA1422CE828400A18BF3 /* FlappyRFTests.m */; };
+		8816DA2022CE828400A18BF3 /* FlappyRFUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8816DA1F22CE828400A18BF3 /* FlappyRFUITests.m */; };
+		8816DA3122CE887000A18BF3 /* Blokada.png in Resources */ = {isa = PBXBuildFile; fileRef = 8816DA2E22CE887000A18BF3 /* Blokada.png */; };
+		8816DA3322CE887000A18BF3 /* Rap factory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8816DA3022CE887000A18BF3 /* Rap factory.jpg */; };
+		8816DA3522CE8BAA00A18BF3 /* Blokada copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8816DA3422CE8BAA00A18BF3 /* Blokada copy.png */; };
+		8816DA3722CE9EA100A18BF3 /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8816DA3622CE9EA100A18BF3 /* Unknown.png */; };
+		8816DA3C22CEDB6200A18BF3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8816DA3B22CEDB6200A18BF3 /* AVFoundation.framework */; };
+		8816DA4122CEE0F700A18BF3 /* muzika1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8816DA4022CEE0F700A18BF3 /* muzika1.wav */; };
+		8816DA4522CEEDF300A18BF3 /* seJeaa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8816DA4422CEEDF300A18BF3 /* seJeaa.wav */; };
+		8816DA4722CEEDFB00A18BF3 /* seAa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8816DA4622CEEDFB00A18BF3 /* seAa.wav */; };
+		8816DA4922CEF1C600A18BF3 /* muzika2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8816DA4822CEF1C600A18BF3 /* muzika2.wav */; };
+		8851210022D7DAE70067FFBD /* Cofi.png in Resources */ = {isa = PBXBuildFile; fileRef = 885120FD22D7DAE70067FFBD /* Cofi.png */; };
+		8851210122D7DAE70067FFBD /* Laki.png in Resources */ = {isa = PBXBuildFile; fileRef = 885120FE22D7DAE70067FFBD /* Laki.png */; };
+		8851210222D7DAE70067FFBD /* Uki.png in Resources */ = {isa = PBXBuildFile; fileRef = 885120FF22D7DAE70067FFBD /* Uki.png */; };
+		8851214522D80BCF0067FFBD /* RF_LOGO_BLACK.png in Resources */ = {isa = PBXBuildFile; fileRef = 8851214422D80BCF0067FFBD /* RF_LOGO_BLACK.png */; };
+		8861A2B122D82050007A3C83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8861A2B022D82050007A3C83 /* Images.xcassets */; };
+		888004CD22D69F060062F77D /* Ljuti Retard.png in Resources */ = {isa = PBXBuildFile; fileRef = 888004CA22D69F060062F77D /* Ljuti Retard.png */; };
+		888004CF22D6A10B0062F77D /* Artvel.png in Resources */ = {isa = PBXBuildFile; fileRef = 888004CE22D6A10B0062F77D /* Artvel.png */; };
+		888004D122D6A9BA0062F77D /* seLagano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 888004D022D6A9BA0062F77D /* seLagano.wav */; };
+		88BEF2ED22CFFF040016CFBA /* Rap factory Blurred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88BEF2EC22CFFF030016CFBA /* Rap factory Blurred.jpg */; };
+		88BEF2F322D0290E0016CFBA /* Rap Factory bl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88BEF2F222D0290E0016CFBA /* Rap Factory bl.jpg */; };
+		88FF324A22D8A79E0018B212 /* seZzkz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 88FF324922D8A79E0018B212 /* seZzkz.wav */; };
+		88FF324C22D8A9DD0018B212 /* seOpstihaos.wav in Resources */ = {isa = PBXBuildFile; fileRef = 88FF324B22D8A9DD0018B212 /* seOpstihaos.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8816DA1122CE828400A18BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8816D9EF22CE828400A18BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8816D9F622CE828400A18BF3;
+			remoteInfo = "Flappy Bird by Artvel (Program)";
+		};
+		8816DA1C22CE828400A18BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8816D9EF22CE828400A18BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8816D9F622CE828400A18BF3;
+			remoteInfo = "Flappy Bird by Artvel (Program)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8816D9F722CE828400A18BF3 /* FlappyRF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyRF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8816D9FB22CE828400A18BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8816D9FD22CE828400A18BF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8816D9FE22CE828400A18BF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8816DA0022CE828400A18BF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8816DA0122CE828400A18BF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8816DA0422CE828400A18BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8816DA0922CE828400A18BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8816DA1022CE828400A18BF3 /* FlappyRFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyRFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8816DA1422CE828400A18BF3 /* FlappyRFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyRFTests.m; sourceTree = "<group>"; };
+		8816DA1622CE828400A18BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8816DA1B22CE828400A18BF3 /* FlappyRFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyRFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8816DA1F22CE828400A18BF3 /* FlappyRFUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyRFUITests.m; sourceTree = "<group>"; };
+		8816DA2122CE828400A18BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8816DA2E22CE887000A18BF3 /* Blokada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blokada.png; path = ../Graphics/Blokada.png; sourceTree = "<group>"; };
+		8816DA3022CE887000A18BF3 /* Rap factory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Rap factory.jpg"; path = "../Graphics/Rap factory.jpg"; sourceTree = "<group>"; };
+		8816DA3422CE8BAA00A18BF3 /* Blokada copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Blokada copy.png"; path = "../Graphics/Blokada copy.png"; sourceTree = "<group>"; };
+		8816DA3622CE9EA100A18BF3 /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Unknown.png; path = ../Graphics/Unknown.png; sourceTree = "<group>"; };
+		8816DA3B22CEDB6200A18BF3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8816DA4022CEE0F700A18BF3 /* muzika1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muzika1.wav; sourceTree = "<group>"; };
+		8816DA4422CEEDF300A18BF3 /* seJeaa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = seJeaa.wav; sourceTree = "<group>"; };
+		8816DA4622CEEDFB00A18BF3 /* seAa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = seAa.wav; sourceTree = "<group>"; };
+		8816DA4822CEF1C600A18BF3 /* muzika2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muzika2.wav; sourceTree = "<group>"; };
+		885120FD22D7DAE70067FFBD /* Cofi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cofi.png; sourceTree = "<group>"; };
+		885120FE22D7DAE70067FFBD /* Laki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Laki.png; sourceTree = "<group>"; };
+		885120FF22D7DAE70067FFBD /* Uki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uki.png; sourceTree = "<group>"; };
+		8851214422D80BCF0067FFBD /* RF_LOGO_BLACK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RF_LOGO_BLACK.png; sourceTree = "<group>"; };
+		8861A2AE22D81F7A007A3C83 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8861A2B022D82050007A3C83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		888004CA22D69F060062F77D /* Ljuti Retard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ljuti Retard.png"; sourceTree = "<group>"; };
+		888004CE22D6A10B0062F77D /* Artvel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Artvel.png; sourceTree = "<group>"; };
+		888004D022D6A9BA0062F77D /* seLagano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = seLagano.wav; sourceTree = "<group>"; };
+		88BEF2EC22CFFF030016CFBA /* Rap factory Blurred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rap factory Blurred.jpg"; sourceTree = "<group>"; };
+		88BEF2F222D0290E0016CFBA /* Rap Factory bl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rap Factory bl.jpg"; sourceTree = "<group>"; };
+		88FF324922D8A79E0018B212 /* seZzkz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = seZzkz.wav; sourceTree = "<group>"; };
+		88FF324B22D8A9DD0018B212 /* seOpstihaos.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = seOpstihaos.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8816D9F422CE828400A18BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8816DA3C22CEDB6200A18BF3 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8816DA0D22CE828400A18BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8816DA1822CE828400A18BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8816D9EE22CE828400A18BF3 = {
+			isa = PBXGroup;
+			children = (
+				8816DA2D22CE828D00A18BF3 /* Resources */,
+				8816D9F922CE828400A18BF3 /* FlappyRFMain */,
+				8816DA1322CE828400A18BF3 /* FlappyRFTests */,
+				8816DA1E22CE828400A18BF3 /* FlappyRFUITests */,
+				8816D9F822CE828400A18BF3 /* Products */,
+				8816DA3A22CEDB6200A18BF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8816D9F822CE828400A18BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8816D9F722CE828400A18BF3 /* FlappyRF.app */,
+				8816DA1022CE828400A18BF3 /* FlappyRFTests.xctest */,
+				8816DA1B22CE828400A18BF3 /* FlappyRFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8816D9F922CE828400A18BF3 /* FlappyRFMain */ = {
+			isa = PBXGroup;
+			children = (
+				8816D9FD22CE828400A18BF3 /* AppDelegate.h */,
+				8816D9FE22CE828400A18BF3 /* AppDelegate.m */,
+				8816DA0022CE828400A18BF3 /* ViewController.h */,
+				8816DA0122CE828400A18BF3 /* ViewController.m */,
+				8816DA0322CE828400A18BF3 /* Main.storyboard */,
+				8861A2B022D82050007A3C83 /* Images.xcassets */,
+				8816DA0822CE828400A18BF3 /* LaunchScreen.storyboard */,
+				8861A2AE22D81F7A007A3C83 /* Info.plist */,
+				8816D9FA22CE828400A18BF3 /* Supporting Files */,
+			);
+			path = FlappyRFMain;
+			sourceTree = "<group>";
+		};
+		8816D9FA22CE828400A18BF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8816D9FB22CE828400A18BF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8816DA1322CE828400A18BF3 /* FlappyRFTests */ = {
+			isa = PBXGroup;
+			children = (
+				8816DA1422CE828400A18BF3 /* FlappyRFTests.m */,
+				8816DA1622CE828400A18BF3 /* Info.plist */,
+			);
+			path = FlappyRFTests;
+			sourceTree = "<group>";
+		};
+		8816DA1E22CE828400A18BF3 /* FlappyRFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8816DA1F22CE828400A18BF3 /* FlappyRFUITests.m */,
+				8816DA2122CE828400A18BF3 /* Info.plist */,
+			);
+			path = FlappyRFUITests;
+			sourceTree = "<group>";
+		};
+		8816DA2D22CE828D00A18BF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8851214422D80BCF0067FFBD /* RF_LOGO_BLACK.png */,
+				885120FD22D7DAE70067FFBD /* Cofi.png */,
+				885120FE22D7DAE70067FFBD /* Laki.png */,
+				885120FF22D7DAE70067FFBD /* Uki.png */,
+				888004CE22D6A10B0062F77D /* Artvel.png */,
+				888004CA22D69F060062F77D /* Ljuti Retard.png */,
+				88BEF2F222D0290E0016CFBA /* Rap Factory bl.jpg */,
+				88BEF2EC22CFFF030016CFBA /* Rap factory Blurred.jpg */,
+				8816DA3622CE9EA100A18BF3 /* Unknown.png */,
+				8816DA3422CE8BAA00A18BF3 /* Blokada copy.png */,
+				8816DA2E22CE887000A18BF3 /* Blokada.png */,
+				8816DA3022CE887000A18BF3 /* Rap factory.jpg */,
+				8816DA3D22CEDBA000A18BF3 /* Sounds */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8816DA3A22CEDB6200A18BF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8816DA3B22CEDB6200A18BF3 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8816DA3D22CEDBA000A18BF3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				88FF324B22D8A9DD0018B212 /* seOpstihaos.wav */,
+				88FF324922D8A79E0018B212 /* seZzkz.wav */,
+				888004D022D6A9BA0062F77D /* seLagano.wav */,
+				8816DA4822CEF1C600A18BF3 /* muzika2.wav */,
+				8816DA4622CEEDFB00A18BF3 /* seAa.wav */,
+				8816DA4422CEEDF300A18BF3 /* seJeaa.wav */,
+				8816DA4022CEE0F700A18BF3 /* muzika1.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8816D9F622CE828400A18BF3 /* FlappyRF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8816DA2422CE828400A18BF3 /* Build configuration list for PBXNativeTarget "FlappyRF" */;
+			buildPhases = (
+				8816D9F322CE828400A18BF3 /* Sources */,
+				8816D9F422CE828400A18BF3 /* Frameworks */,
+				8816D9F522CE828400A18BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlappyRF;
+			productName = "Flappy Bird by Artvel (Program)";
+			productReference = 8816D9F722CE828400A18BF3 /* FlappyRF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8816DA0F22CE828400A18BF3 /* FlappyRFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8816DA2722CE828400A18BF3 /* Build configuration list for PBXNativeTarget "FlappyRFTests" */;
+			buildPhases = (
+				8816DA0C22CE828400A18BF3 /* Sources */,
+				8816DA0D22CE828400A18BF3 /* Frameworks */,
+				8816DA0E22CE828400A18BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8816DA1222CE828400A18BF3 /* PBXTargetDependency */,
+			);
+			name = FlappyRFTests;
+			productName = "Flappy Bird by Artvel (Program)Tests";
+			productReference = 8816DA1022CE828400A18BF3 /* FlappyRFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8816DA1A22CE828400A18BF3 /* FlappyRFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8816DA2A22CE828400A18BF3 /* Build configuration list for PBXNativeTarget "FlappyRFUITests" */;
+			buildPhases = (
+				8816DA1722CE828400A18BF3 /* Sources */,
+				8816DA1822CE828400A18BF3 /* Frameworks */,
+				8816DA1922CE828400A18BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8816DA1D22CE828400A18BF3 /* PBXTargetDependency */,
+			);
+			name = FlappyRFUITests;
+			productName = "Flappy Bird by Artvel (Program)UITests";
+			productReference = 8816DA1B22CE828400A18BF3 /* FlappyRFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8816D9EF22CE828400A18BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = RF;
+				TargetAttributes = {
+					8816D9F622CE828400A18BF3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3VMGV699SM;
+						ProvisioningStyle = Automatic;
+					};
+					8816DA0F22CE828400A18BF3 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8816D9F622CE828400A18BF3;
+					};
+					8816DA1A22CE828400A18BF3 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8816D9F622CE828400A18BF3;
+					};
+				};
+			};
+			buildConfigurationList = 8816D9F222CE828400A18BF3 /* Build configuration list for PBXProject "FlappyRF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8816D9EE22CE828400A18BF3;
+			productRefGroup = 8816D9F822CE828400A18BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8816D9F622CE828400A18BF3 /* FlappyRF */,
+				8816DA0F22CE828400A18BF3 /* FlappyRFTests */,
+				8816DA1A22CE828400A18BF3 /* FlappyRFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8816D9F522CE828400A18BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8851210122D7DAE70067FFBD /* Laki.png in Resources */,
+				8816DA4522CEEDF300A18BF3 /* seJeaa.wav in Resources */,
+				88BEF2F322D0290E0016CFBA /* Rap Factory bl.jpg in Resources */,
+				88BEF2ED22CFFF040016CFBA /* Rap factory Blurred.jpg in Resources */,
+				8816DA3122CE887000A18BF3 /* Blokada.png in Resources */,
+				8816DA0A22CE828400A18BF3 /* LaunchScreen.storyboard in Resources */,
+				88FF324C22D8A9DD0018B212 /* seOpstihaos.wav in Resources */,
+				888004D122D6A9BA0062F77D /* seLagano.wav in Resources */,
+				8851210022D7DAE70067FFBD /* Cofi.png in Resources */,
+				8861A2B122D82050007A3C83 /* Images.xcassets in Resources */,
+				8816DA4722CEEDFB00A18BF3 /* seAa.wav in Resources */,
+				8816DA4122CEE0F700A18BF3 /* muzika1.wav in Resources */,
+				8851210222D7DAE70067FFBD /* Uki.png in Resources */,
+				8851214522D80BCF0067FFBD /* RF_LOGO_BLACK.png in Resources */,
+				8816DA0522CE828400A18BF3 /* Main.storyboard in Resources */,
+				8816DA3322CE887000A18BF3 /* Rap factory.jpg in Resources */,
+				8816DA3722CE9EA100A18BF3 /* Unknown.png in Resources */,
+				888004CF22D6A10B0062F77D /* Artvel.png in Resources */,
+				888004CD22D69F060062F77D /* Ljuti Retard.png in Resources */,
+				88FF324A22D8A79E0018B212 /* seZzkz.wav in Resources */,
+				8816DA3522CE8BAA00A18BF3 /* Blokada copy.png in Resources */,
+				8816DA4922CEF1C600A18BF3 /* muzika2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8816DA0E22CE828400A18BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8816DA1922CE828400A18BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8816D9F322CE828400A18BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8816DA0222CE828400A18BF3 /* ViewController.m in Sources */,
+				8816D9FF22CE828400A18BF3 /* AppDelegate.m in Sources */,
+				8816D9FC22CE828400A18BF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8816DA0C22CE828400A18BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8816DA1522CE828400A18BF3 /* FlappyRFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8816DA1722CE828400A18BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8816DA2022CE828400A18BF3 /* FlappyRFUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8816DA1222CE828400A18BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8816D9F622CE828400A18BF3 /* FlappyRF */;
+			targetProxy = 8816DA1122CE828400A18BF3 /* PBXContainerItemProxy */;
+		};
+		8816DA1D22CE828400A18BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8816D9F622CE828400A18BF3 /* FlappyRF */;
+			targetProxy = 8816DA1C22CE828400A18BF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8816DA0322CE828400A18BF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8816DA0422CE828400A18BF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8816DA0822CE828400A18BF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8816DA0922CE828400A18BF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8816DA2222CE828400A18BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8816DA2322CE828400A18BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8816DA2522CE828400A18BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 3VMGV699SM;
+				INFOPLIST_FILE = "$(SRCROOT)/FlappyRF/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlappyRF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8816DA2622CE828400A18BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 3VMGV699SM;
+				INFOPLIST_FILE = "$(SRCROOT)/FlappyRF/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlappyRF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8816DA2822CE828400A18BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Flappy Bird by Artvel (Program)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stuff.Flappy-Bird-by-Artvel--Program-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyRF.app/FlappyRF";
+			};
+			name = Debug;
+		};
+		8816DA2922CE828400A18BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Flappy Bird by Artvel (Program)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stuff.Flappy-Bird-by-Artvel--Program-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyRF.app/FlappyRF";
+			};
+			name = Release;
+		};
+		8816DA2B22CE828400A18BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Flappy Bird by Artvel (Program)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stuff.Flappy-Bird-by-Artvel--Program-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Flappy Bird by Artvel (Program)";
+			};
+			name = Debug;
+		};
+		8816DA2C22CE828400A18BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Flappy Bird by Artvel (Program)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stuff.Flappy-Bird-by-Artvel--Program-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Flappy Bird by Artvel (Program)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8816D9F222CE828400A18BF3 /* Build configuration list for PBXProject "FlappyRF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8816DA2222CE828400A18BF3 /* Debug */,
+				8816DA2322CE828400A18BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8816DA2422CE828400A18BF3 /* Build configuration list for PBXNativeTarget "FlappyRF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8816DA2522CE828400A18BF3 /* Debug */,
+				8816DA2622CE828400A18BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8816DA2722CE828400A18BF3 /* Build configuration list for PBXNativeTarget "FlappyRFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8816DA2822CE828400A18BF3 /* Debug */,
+				8816DA2922CE828400A18BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8816DA2A22CE828400A18BF3 /* Build configuration list for PBXNativeTarget "FlappyRFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8816DA2B22CE828400A18BF3 /* Debug */,
+				8816DA2C22CE828400A18BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8816D9EF22CE828400A18BF3 /* Project object */;
+}
